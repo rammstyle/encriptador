@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+      
+      <div class="clase1" id="uno">
+        <h1 class="titulo">Mensaje Original</h1>
+          <section class="form box">
+            <form action="">
+              <input class="text-input" type="text" name="input-texto" id="input1" placeholder="Ingrese el texto aqui">
+
+
+            </form>
+          </section>
+        </div>
+          <div class="clase2" id="dos">
+          <section class="msg box">
+            <h2 id="titulo2">Mensaje Encriptado</h2>
+            <input class="text-input-salida" type="text" id="msg">
+          </section>
+        </div>
+        
+        <input class="boton" type="button" value="Encriptar" id="boton-encriptar">
+        <input class="boton" type="button" value="Desencriptar" id="boton-desencriptar">
+        <button onclick="copiar()" class="boton" type="button" value="Copiar" id="boton-copy">Copiar</button>
+        <br>
+        <br>
+        <label for="input-texto" id="label">Solo letras minúsculas, sin tildes.</label>
+      
+        <script src="script.js"></script>
+      </body>
+</html>
